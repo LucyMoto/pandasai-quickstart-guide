@@ -1,0 +1,9 @@
+query_num,description,pandasai_success,sql_success,pandasai_time_s,sql_time_s,pandasai_error,sql_error
+1,Count distinct users with active subscriptions,True,True,2.80,1.56,,
+2,Total revenue by country for active subscriptions,True,True,3.80,0.57,,
+3,Users with annual plans and session count,True,True,8.98,1.30,,
+4,Payment methods by country,True,True,4.38,0.58,,
+5,Avg session duration and total revenue by subscription plan,True,True,5.40,11.26,,
+6,"Users with annual plans, >100 sessions, and payments",True,True,7.04,1.53,,
+7,Average revenue per user by plan,True,True,3.72,0.57,,
+8,Compare avg revenue: users with payments vs only sessions,True,True,5.08,11.52,,

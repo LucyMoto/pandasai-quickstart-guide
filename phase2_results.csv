@@ -1,0 +1,9 @@
+query_num,complexity,category,tables_involved,success,response_time_s,result_type,error
+1,EASY,user_subscription_join,"users, subscriptions",True,3.47,NumberResponse,
+2,EASY,subscription_revenue,"users, subscriptions, payments",True,4.33,DataFrameResponse,
+3,MEDIUM,user_engagement,"users, subscriptions, sessions",True,10.67,DataFrameResponse,
+4,MEDIUM,payment_method_analysis,"users, subscriptions, payments",True,4.41,DataFrameResponse,
+5,MEDIUM,subscription_activity,"subscriptions, sessions, payments",True,5.17,DataFrameResponse,
+6,HARD,user_value_analysis,"users, subscriptions, sessions, payments",True,6.40,DataFrameResponse,
+7,HARD,revenue_by_engagement,"users, subscriptions, sessions, payments",True,18.24,DataFrameResponse,
+8,HARD,cohort_analysis,"users, subscriptions, sessions, payments",True,6.76,DataFrameResponse,
